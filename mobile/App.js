@@ -72,6 +72,9 @@ const [background, setBackground] = useState(lista[0].img)
               
               Livros Recentes
             </Text>
+            <View style={styles.slideView}>
+
+            </View>
           </ImageBackground>
 
         </View>
@@ -113,5 +116,13 @@ const styles = StyleSheet.create({
     position: 'absolute',
     right: 20,
     top: 15,
+  },
+
+  slideView:{
+    width:'100%',
+    height:350,
+    justifyContent:'center',
+    alignItems: 'center'
   }
+
 });
